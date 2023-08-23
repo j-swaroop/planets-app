@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 26px;
+}
+.image{
+    width: 450px;
+}
+
+.planet-name{
+    color:  #f8fafc;
+    font-family: "Roboto";
+    font-size: 26px;
+    margin-top: 30px;
+}
+.description{
+    color:  #f1f5f9;
+    font-family: "Roboto";
+    font-size: 16px;
+    text-align: center;
+}
+@media (max-width: 576px){
+    .image{
+        width: 90%;
+    }
+    .description{
+        font-size: 14px;
+    }
+    .planet-name{
+        font-size: 18px;
+    }
+    .item{
+        width: 100%;
+    }
+}
